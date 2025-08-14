@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreakOnStartup", "BreakOnStartup\BreakOnStartup.csproj", "{5608318C-E0C2-45D9-A662-B851A6B50D70}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6E935A94-2912-4DB7-94F0-0D86FDF68CAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppNet9", "Tests\ConsoleAppNet9\ConsoleAppNet9.csproj", "{6DD6B1B4-509B-493C-857B-7740633925D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,12 @@ Global
 		{5608318C-E0C2-45D9-A662-B851A6B50D70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5608318C-E0C2-45D9-A662-B851A6B50D70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5608318C-E0C2-45D9-A662-B851A6B50D70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DD6B1B4-509B-493C-857B-7740633925D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DD6B1B4-509B-493C-857B-7740633925D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DD6B1B4-509B-493C-857B-7740633925D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DD6B1B4-509B-493C-857B-7740633925D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6DD6B1B4-509B-493C-857B-7740633925D1} = {6E935A94-2912-4DB7-94F0-0D86FDF68CAC}
 	EndGlobalSection
 EndGlobal
